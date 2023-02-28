@@ -1,0 +1,31 @@
+{
+  "name": "testcrud",
+  "version": "1.0.0",
+  "description": "test crud web application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenQuocVietFPT/demo_CRUD_nodeJS.git"
+  },
+  "keywords": [
+    "demo_crud",
+    "crud_test"
+  ],
+  "author": "iamviet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenQuocVietFPT/demo_CRUD_nodeJS/issues"
+  },
+  "homepage": "https://github.com/NguyenQuocVietFPT/demo_CRUD_nodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
